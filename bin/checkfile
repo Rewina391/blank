@@ -1,0 +1,24 @@
+#!/bin/bash
+# the first line of a bash script contains the "shebang"
+
+
+echo "Enter your filename"
+# I am using the 'echo' command to print soemthing to the screen
+
+read newfile1
+# I am creating a new variable "newfile1" and I store whatever the user writes
+#further, I am using the variable becuse I am expecting the user to give a name of a file!
+if [ -f "$newfile1" ]
+# The 'if' statemnet is used to apply a conditon to the script. 
+#I am using the 'if' statemnet to check if a file exists; I achieve this by using the '-f' flag
+# the '-f' parameter is used in bash to check for 'files'
+    then
+    # if the condition is true then ....
+       echo "file exists in directory"
+       3 print out message to the screen
+else
+# if conditon is false, then...
+  echo "file does not exist in directory"
+  # print message to screen
+fi 
+# I end my if conditional statemnet by writing 'fi' which is how to end conditionaks in bash

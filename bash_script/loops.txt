@@ -1,0 +1,40 @@
+
+while loop structure
+
+while [ condition ]
+do
+    command1
+    command2
+    command3
+    .
+    .
+    commandn
+done 
+
+
+--------------------------------------------
+until loop structure
+
+until [ condition ]
+do
+    command1
+    .
+    .commandn
+done
+----------------
+
+foor loop structure
+
+for variable in 1 2 3 4 ..n; {1..n}; file1 file2 file3
+do 
+    command1
+    .
+    .commandn
+done
+
+nested while loop structure
+while [ condition ]
+{do
+    while [ condition ]
+    {do commandn
+    
